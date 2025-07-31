@@ -22,7 +22,10 @@ require("lazy").setup({
       import = "lazyvim.plugins",
       opts = {
         -- colorscheme = "solarized-osaka",
-        colorscheme = "onedark", -- set your preferred colorscheme here
+        colorscheme = "onedark",
+        hide_target_hack = true,
+        cursor_color = "none",
+        cursor = { enable = false },
       },
     },
     -- import/override with your plugins
